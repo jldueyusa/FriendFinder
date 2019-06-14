@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background: rgb(0, 0, 0);
+	background: #212121;
 }
 
 .site {
@@ -28,7 +28,7 @@ p {
 	line-height: 1.75;
 	margin: auto;
 	font-size: 1.2em;
-	color: #C5D0D2;
+	color: #FFF;
 }
 
 footer {
@@ -47,15 +47,12 @@ footer {
 
 form {
 	margin-top: 40px;
+	color: #fff;
 }
 
 a {
 	color: rgb(0, 0, 0);
 	font-size: 20px;
-}
-
-label.required { 
-	color: rgb (255, 255, 255); 
 }
 
 #soulmateModal {
