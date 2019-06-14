@@ -6,13 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Link static CSS -->
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+	
 
 </head>
 <body>
+			
 	<div class="container content">
+		
 		<h1>Survey</h1>
 		<p>Take this quick survey to find your perfect match! These questions are answered by the numbers 1 through 5. Enter 1 if you are not passionate about a question. Enter 5 If you are extremely passionate about a question.</p>
+		
 		<form>
 			<div class="form-group">
 				<input id="name" type="text" class="form-control" placeholder="Name (Required)">
@@ -21,7 +24,7 @@
 				<input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
 			</div>
 			<div class="form-group">
-				<label for="question1">Must love dogs.</label>
+				<label class='required' for="question1">Must love dogs.</label>
 				<select class="form-control" id="question1">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -43,7 +46,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question3">Supportive of the 2nd Amendment.</label>
+				<label for="question3">Can wield a sword.</label>
 				<select class="form-control" id="question3">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -132,7 +135,7 @@
 			</div>
 		</form>
 		<div class="text-center">
-			<button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+			<button id="submitBtn" type="submit" class="btn btn-secondary btn-lg">Submit</button>
 		</div>
 		
 		<!-- Modal after survey completion -->
@@ -157,7 +160,7 @@
 
 	<footer>
 		
-	</footer>
+	
 
 	<div class="container">
 		<a href="/api/friends">Discover Your Game of Thrones Partner</a>
